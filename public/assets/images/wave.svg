@@ -1,0 +1,32 @@
+<svg width="1512" height="1377" viewBox="0 0 1512 1377" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.2">
+<path opacity="0.5" d="M775.085 105.923C331.383 46.1078 55.4857 242.245 -27 347.79V1215H1510.37V691.049V0C1450.15 60.2308 1218.79 165.739 775.085 105.923Z" fill="url(#paint0_radial_126_326)"/>
+<path opacity="0.6" d="M775.085 176.923C331.383 117.108 55.4857 313.245 -27 418.79V1286H1510.37V762.049V71C1450.15 131.231 1218.79 236.739 775.085 176.923Z" fill="url(#paint1_radial_126_326)"/>
+<path opacity="0.8" d="M800.085 267.923C356.383 208.108 80.4857 404.245 -2 509.79V1377H1535.37V853.049V162C1475.15 222.231 1243.79 327.739 800.085 267.923Z" fill="url(#paint2_radial_126_326)"/>
+<path d="M-80 353H1510V1238H-80V353Z" fill="url(#paint3_linear_126_326)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_126_326" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(741.686 105.923) rotate(90) scale(1109.08 1403.34)">
+<stop stop-color="#FFF5E2" stop-opacity="0.92"/>
+<stop offset="0.270833" stop-color="#EEAD2F" stop-opacity="0.56"/>
+<stop offset="0.645833" stop-color="#0000FF" stop-opacity="0"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_126_326" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(741.686 176.923) rotate(90) scale(1109.08 1403.34)">
+<stop stop-color="#FFEFCF"/>
+<stop offset="0.328125" stop-color="#EEAD2F" stop-opacity="0.27"/>
+<stop offset="0.645833" stop-color="#0000FF" stop-opacity="0"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_126_326" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(766.686 267.923) rotate(90) scale(1109.08 1403.34)">
+<stop stop-color="#FFFAED"/>
+<stop offset="0.328125" stop-color="#EEAD2F" stop-opacity="0.19"/>
+<stop offset="0.645833" stop-color="#0000FF" stop-opacity="0.66"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint3_linear_126_326" x1="671.986" y1="419.5" x2="673.962" y2="1067" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0"/>
+<stop offset="1"/>
+</linearGradient>
+</defs>
+</svg>
