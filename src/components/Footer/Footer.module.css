@@ -1,9 +1,9 @@
 .footer {
-    max-width: 80rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1rem 8rem;
+    background-color: var(--color-grey);
 }
 
 .footer__wrapper {
@@ -35,4 +35,11 @@
     border-top: 0.1em;
     border-style: solid;
     padding: 1rem 0;
+    opacity: .5;
+}
+
+@media(max-width: 50rem) {
+    .footer {
+        padding: 1rem;
+    }
 }

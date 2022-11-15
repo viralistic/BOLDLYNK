@@ -25,7 +25,10 @@ export default function Footer() {
       </div>
       <div className={styles.footer__copyright__container}>
         <span>&#169; {new Date().getFullYear()} BOLDLYNK</span>
-        <span>WEBDESIGN BY VIRALISTIC / WWW.VRLS.TC</span>
+        <span className={styles.footer__copyright}>
+          Webdesign by Marraliza kreijkes / Development by Justin Lung /
+          Viralistic digital agency
+        </span>
       </div>
     </footer>
   );

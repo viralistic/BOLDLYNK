@@ -10,3 +10,7 @@ body {
   color: var(--color-white);
   font-family: 'Quicksand-Light', sans-serif;
 }
+
+main {
+  padding: 1rem;
+}

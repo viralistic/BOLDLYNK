@@ -1,15 +1,25 @@
 .hero {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 25rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    gap: 1rem;
 }
 
 .hero__title {
     font-family: 'Futura';
     font-weight: 300;
     font-size: 3rem;
+    line-height: 2.7rem;
     max-width: 35rem;
-    text-align: center;
+}
+
+.hero__description {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    max-width: 35rem;
+    color: var(--color-white);
+    opacity: 0.5;
 }
