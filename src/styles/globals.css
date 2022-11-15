@@ -14,3 +14,8 @@ body {
 main {
   padding: 1rem;
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-white)
+}
