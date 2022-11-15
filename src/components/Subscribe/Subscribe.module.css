@@ -46,7 +46,6 @@
     width: 1rem;
     height: 1rem;
     opacity: .5;
-    padding: 1rem;
 }
 
 .subscribe__tacbox__container {
@@ -60,5 +59,4 @@
     color: var(--color-white);
     opacity: .5;
     margin-left: 1rem;
-    letter-spacing: .1rem;
 }

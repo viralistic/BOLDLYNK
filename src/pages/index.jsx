@@ -1,6 +1,5 @@
 import Hero from "../components/Hero/Hero";
 import Subscribe from "../components/Subscribe/Subscribe";
-import Note from "../components/Note/Note";
 import Review from "../components/Review/Review";
 
 export default function Home() {
