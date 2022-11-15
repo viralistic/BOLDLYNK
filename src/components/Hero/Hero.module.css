@@ -11,15 +11,15 @@
 .hero__title {
     font-family: 'Futura';
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.7rem;
     max-width: 35rem;
 }
 
 .hero__description {
-    font-size: 1.2rem;
-    line-height: 2rem;
-    max-width: 35rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 30rem;
     color: var(--color-white);
     opacity: 0.5;
 }

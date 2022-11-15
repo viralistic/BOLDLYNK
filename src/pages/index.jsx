@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <Hero
         heroTitle="Enter the backdoor of your own network."
-        heroDescription="We update everything we can- saving HOURS of your time.We update everything we can- saving HOURS of your time."
+        heroDescription="We update everything we can- saving HOURS of your time."
       />
     </>
   );
