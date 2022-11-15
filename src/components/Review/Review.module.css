@@ -1,0 +1,14 @@
+.review {
+    margin: 2rem 0;
+}
+
+.review__title {
+    max-width: 25rem;
+    padding: 1rem 0 .5rem;
+}
+
+.review__text {
+    max-width: 25rem;
+    color: var(--color-white);
+    opacity: .5;
+}

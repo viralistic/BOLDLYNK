@@ -1,0 +1,15 @@
+.note {
+    background-color: var(--color-grey);
+    padding: .5rem .8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    border-radius: .5rem;
+}
+
+.note__image {
+    margin-right: 1rem;
+    width: 1.5rem;
+}
