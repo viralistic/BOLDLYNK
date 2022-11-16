@@ -9,6 +9,8 @@
     max-width: 20rem;
     padding: 3rem 0 2rem;
     font-size: 2rem;
+    font-family: 'Futura';
+    font-weight: 300;
 }
 
 .subscribe__form {
