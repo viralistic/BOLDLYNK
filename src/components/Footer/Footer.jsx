@@ -45,8 +45,14 @@ export default function Footer() {
           &#169; {new Date().getFullYear()} BOLDLYNK - ALL RIGHTS RESERVED
         </span>
         <span className={styles.footer__credits}>
-          Webdesign by Marraliza kreijkes / Development by Justin Lung /
-          Viralistic digital agency
+          Webdesign by Marraliza kreijkes / Development by{" "}
+          <a href="https://justinlung.com/" target="_blank">
+            Justin Lung
+          </a>{" "}
+          /{" "}
+          <a href="https://vrls.tc/" target="_blank">
+            Viralistic digital agency
+          </a>
         </span>
       </div>
     </footer>
