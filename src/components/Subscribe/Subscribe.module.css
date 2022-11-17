@@ -25,7 +25,9 @@
     all: unset;
     border: 1px solid var(--color-white);
     padding: 1rem;
-    border-radius: .2rem;
+    letter-spacing: .2rem;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
 }
 
 .subscribe__submit {
@@ -37,7 +39,8 @@
     padding: 1rem;
     cursor: pointer;
     transition: .3s ease-in-out;
-    border-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+    border-bottom-right-radius: .2rem;
 }
 
 .subscribe__submit:focus,
@@ -91,6 +94,12 @@
     .subscribe__submit,
     .subscribe__mail {
         flex: 1;
+    }
+
+    .subscribe__mail {
+        border-top-left-radius: .2rem;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: .2rem;
     }
 
     .subscribe__tacbox__container {
