@@ -6,21 +6,11 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footer__wrapper}>
         <nav className={styles.footer__nav}>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-          <Link href="/">
-            <a>About</a>
-          </Link>
-          <Link href="/">
-            <a>FAQ</a>
-          </Link>
-          <Link href="/">
-            <a>Policy</a>
-          </Link>
-          <Link href="/">
-            <a>Join</a>
-          </Link>
+          <Link href="/">Home</Link>
+          <Link href="/">About</Link>
+          <Link href="/">FAQ</Link>
+          <Link href="/">Policy</Link>
+          <Link href="/">Join</Link>
         </nav>
         <span className={styles.seperator__mobile}></span>
         <ul className={styles.footer__list}>

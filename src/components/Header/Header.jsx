@@ -5,19 +5,17 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link href="/">
-        <a>
-          <img src="/assets/images/bold-lynk-logo.svg" alt="Logo" />
-        </a>
+        <img src="/assets/images/bold-lynk-logo.svg" alt="Logo" />
       </Link>
       <nav className={styles.nav}>
         <Link href="/" className={styles.nav__link}>
-          <a>Home</a>
+          Home
         </Link>
         <Link href="/" className={styles.nav__link}>
-          <a>About</a>
+          About
         </Link>
         <Link href="/" className={styles.nav__link}>
-          <a>Join</a>
+          Join
         </Link>
       </nav>
       <button className={styles.hamburger}>
