@@ -2,11 +2,52 @@
     padding: 2rem 1rem;
     max-width: 60rem;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header__logo {
     font-size: 1.5rem;
 }
+
+.hamburger {
+    all: unset;
+    display: block;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    z-index: 30
+}
+
+.hamburger__line {
+    display: block;
+    width: 2rem;
+    height: 0.1rem;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: var(--color-white);
+    border-radius: 6px;
+    transform-origin: 0 0;
+    transition: 0.4s;
+}
+
+.hamburger__line:last-child {
+    margin: 0;
+}
+
+/* button.active span:nth-child(1) {
+    transform: translate(0px, -2px) rotate(45deg);
+}
+
+button.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(15px);
+}
+
+button.active span:nth-child(3) {
+    transform: translate(-3px, 3px) rotate(-45deg);
+} */
 
 @media(min-width: 60rem) {
     .header {
