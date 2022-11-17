@@ -19,3 +19,11 @@ a {
   text-decoration: none;
   color: var(--color-white)
 }
+
+details>summary {
+  list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+  display: none;
+}
