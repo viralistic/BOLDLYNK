@@ -1,25 +1,36 @@
 import styles from "../Footer/Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer__wrapper}>
         <nav className={styles.footer__nav}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">FAQ</a>
-          <a href="/">Policy</a>
-          <a href="/">Join</a>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+          <Link href="/">
+            <a>About</a>
+          </Link>
+          <Link href="/">
+            <a>FAQ</a>
+          </Link>
+          <Link href="/">
+            <a>Policy</a>
+          </Link>
+          <Link href="/">
+            <a>Join</a>
+          </Link>
         </nav>
         <span className={styles.seperator__mobile}></span>
         <ul className={styles.footer__list}>
           <li className={styles.footer__list__item}>
-            <a href="/">
+            <a href="#">
               <img src="/assets/icons/mail-icon.svg" alt="Mail Icon" />
             </a>
           </li>
           <li className={styles.footer__list__item}>
-            <a href="/">
+            <a href="#">
               <img
                 src="/assets/icons/instagram-icon.svg"
                 alt="Instragram Icon"
@@ -27,12 +38,12 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.footer__list__item}>
-            <a href="/">
+            <a href="#">
               <img src="/assets/icons/telegram-icon.svg" alt="Telegram Icon" />
             </a>
           </li>
           <li className={styles.footer__list__item}>
-            <a href="/">
+            <a href="#">
               <img src="/assets/icons/discord-icon.svg" alt="Discord Icon" />
             </a>
           </li>
