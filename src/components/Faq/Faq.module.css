@@ -1,5 +1,9 @@
 .faq {
+    min-height: 32rem;
     max-width: 60rem;
     margin: 0 auto;
     transition: .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
