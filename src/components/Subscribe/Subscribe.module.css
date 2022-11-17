@@ -40,9 +40,11 @@
     border-radius: .2rem;
 }
 
-.subscribe__submit:focus {
+.subscribe__submit:focus,
+.subscribe__submit:hover {
     background-color: var(--color-blue);
     color: var(--color-white);
+    cursor: pointer;
 }
 
 .subscribe__tacbox {
