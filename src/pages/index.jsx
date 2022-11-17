@@ -11,7 +11,7 @@ export default function Home() {
       />
       <Review
         reviewTitle="“This app enables me to monetize”"
-        reviewText="We update everything we can- saving HOURS of your time.We update everything we can- saving HOURS of your time."
+        reviewText="We update everything we can- saving HOURS of your time."
       />
       <Subscribe subscribeText="You can say you were the first one..." />
     </>

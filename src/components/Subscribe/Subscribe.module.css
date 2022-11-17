@@ -3,6 +3,8 @@
     background: linear-gradient(153deg, var(--color-blue) 35%, var(--color-yellow) 100%);
     padding: 1.5rem;
     border-radius: .2rem;
+    max-width: 60rem;
+    margin: 0 auto;
 }
 
 .subscribe__heading {
@@ -29,7 +31,6 @@
     all: unset;
     font-family: 'Futura', sans-serif;
     font-weight: 700;
-    letter-spacing: .2rem;
     background-color: var(--color-white);
     color: var(--color-blue);
     padding: 1rem;

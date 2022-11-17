@@ -16,3 +16,21 @@
     color: var(--color-white);
     opacity: .5;
 }
+
+@media(min-width: 50rem) {
+    .review {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .review__title {
+        font-size: 2.6rem;
+    }
+
+    .review__text {
+        font-size: 1.2rem;
+    }
+}
