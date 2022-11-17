@@ -24,7 +24,6 @@
 
 .hero__waves {
     background-image: url('/assets/images/wave.svg');
-    /* background-color: red; */
     background-size: cover;
     background-position: top;
     overflow: hidden;
