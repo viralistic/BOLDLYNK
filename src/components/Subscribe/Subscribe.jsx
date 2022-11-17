@@ -1,4 +1,5 @@
 import styles from "./Subscribe.module.css";
+import Link from "next/link";
 
 export default function Subscribe({ subscribeText }) {
   return (
@@ -23,7 +24,7 @@ export default function Subscribe({ subscribeText }) {
               className={styles.subscribe__tacbox}
             />
             <label for="checkbox" className={styles.subscribe__label}>
-              I AGREE WITH THE <a href="/">T & C</a>
+              I AGREE WITH THE <Link href="/">T & C</Link>
             </label>
           </div>
         </form>
