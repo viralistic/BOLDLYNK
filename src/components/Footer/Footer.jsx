@@ -20,7 +20,7 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.footer__list__item}>
-            <a href="#">
+            <a href="www.instagram.com/boldlynk" target="_blank">
               <img
                 src="/assets/icons/instagram-icon.svg"
                 alt="Instragram Icon"
