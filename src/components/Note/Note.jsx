@@ -8,7 +8,7 @@ export default function Note({ note }) {
         alt="Box Icon"
         className={styles.note__image}
       />
-      {note}
+      <p className={styles.note__text}>{note}</p>
     </span>
   );
 }

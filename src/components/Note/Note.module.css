@@ -5,11 +5,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 14rem;
+    max-width: 18rem;
     border-radius: .5rem;
 }
 
 .note__image {
     margin-right: 1rem;
     width: 1.5rem;
+}
+
+.note__text {
+    opacity: .5;
+    letter-spacing: .2rem;
+    font-size: 1rem;
 }
