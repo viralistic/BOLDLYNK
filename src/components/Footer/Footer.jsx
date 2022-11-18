@@ -33,7 +33,7 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.footer__list__item}>
-            <a href="#">
+            <a href="https://discord.gg/f2yqRD9FW5" target="_blank">
               <img src="/assets/icons/discord-icon.svg" alt="Discord Icon" />
             </a>
           </li>

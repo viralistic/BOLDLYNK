@@ -28,6 +28,7 @@
     letter-spacing: .2rem;
     border-top-left-radius: .2rem;
     border-top-right-radius: .2rem;
+    order: 0;
 }
 
 .subscribe__submit {
@@ -70,6 +71,7 @@
     margin-left: 1rem;
 }
 
+
 @media(min-width: 55rem) {
     .subscribe {
         display: flex;
@@ -91,9 +93,19 @@
         flex-direction: row;
     }
 
+    .subscribe__submit {
+        border-top-right-radius: .2rem;
+        border-bottom-right-radius: .2rem;
+        border-bottom-left-radius: 0;
+    }
+
     .subscribe__submit,
     .subscribe__mail {
         flex: 1;
+    }
+
+    .subscribe__submit {
+        order: 3;
     }
 
     .subscribe__mail {
@@ -104,7 +116,6 @@
 
     .subscribe__tacbox__container {
         border: 1px solid var(--color-white);
-        border-radius: .2rem;
         flex: 1;
     }
 
