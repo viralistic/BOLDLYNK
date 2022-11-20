@@ -2,6 +2,10 @@
     cursor: pointer;
 }
 
+.details[open] .summary~* {
+    animation: sweep .5s ease-in-out;
+}
+
 .summary {
     font-family: "Futura", sans-serif4;
     font-size: 1.5rem;
@@ -10,6 +14,19 @@
 .details[open] .seperator {
     display: none;
     opacity: 0;
+
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+
+    100% {
+        opacity: .5;
+        transform: translateY(0)
+    }
 }
 
 .seperator {
@@ -20,7 +37,7 @@
 .description {
     font-size: 1rem;
     opacity: .5;
-    max-width: 30rem;
+    max-width: 38rem;
 }
 
 @media(min-width: 55rem) {

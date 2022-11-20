@@ -69,7 +69,7 @@
     align-items: center;
 }
 
-@media(min-width: 60rem) {
+@media(min-width: 55rem) {
 
     .footer__nav {
         padding: 0;

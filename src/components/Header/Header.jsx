@@ -18,7 +18,7 @@ export default function Header() {
           Join
         </Link>
       </nav>
-      <button className={styles.hamburger} onClick={() => setOpen(!isOpen)}>
+      <button className={styles.hamburger}>
         <span className={styles.hamburger__line} />
         <span className={styles.hamburger__line} />
         <span className={styles.hamburger__line} />
