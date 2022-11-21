@@ -1,0 +1,31 @@
+.error {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.error__heading {
+    font-size: 6rem;
+}
+
+.error__description {
+    max-width: 30rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.error__link {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    padding: .5rem 1.2rem;
+    border-radius: .2rem;
+    transition: .3s ease-in-out;
+}
+
+.error__link:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
