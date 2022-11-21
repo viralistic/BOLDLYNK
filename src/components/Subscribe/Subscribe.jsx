@@ -23,7 +23,7 @@ export default function Subscribe({ subscribeText }) {
               type="checkbox"
               className={styles.subscribe__tacbox}
             />
-            <label for="checkbox" className={styles.subscribe__label}>
+            <label htmlFor="checkbox" className={styles.subscribe__label}>
               I AGREE WITH THE <Link href="/">T & C</Link>
             </label>
           </div>
