@@ -20,7 +20,11 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.footer__list__item}>
-            <a href="www.instagram.com/boldlynk" target="_blank">
+            <a
+              href="www.instagram.com/boldlynk"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="/assets/icons/instagram-icon.svg"
                 alt="Instragram Icon"
@@ -33,7 +37,11 @@ export default function Footer() {
             </a>
           </li>
           <li className={styles.footer__list__item}>
-            <a href="https://discord.gg/f2yqRD9FW5" target="_blank">
+            <a
+              href="https://discord.gg/f2yqRD9FW5"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="/assets/icons/discord-icon.svg" alt="Discord Icon" />
             </a>
           </li>
@@ -46,11 +54,11 @@ export default function Footer() {
         </span>
         <span className={styles.footer__credits}>
           Webdesign by Marraliza kreijkes / Development by{" "}
-          <a href="https://justinlung.com/" target="_blank">
+          <a href="https://justinlung.com/" target="_blank" rel="noreferrer">
             Justin Lung
           </a>{" "}
           /{" "}
-          <a href="https://vrls.tc/" target="_blank">
+          <a href="https://vrls.tc/" target="_blank" rel="noreferrer">
             Viralistic digital agency
           </a>
         </span>
