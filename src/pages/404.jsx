@@ -13,6 +13,7 @@ export default function FourOhFour() {
         <Link href="/" className={styles.error__link}>
           Go to Home
         </Link>
+        <div className={styles.error__wave}></div>
       </section>
     </>
   );
