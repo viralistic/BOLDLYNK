@@ -17,12 +17,12 @@ export default function Header() {
         <Link href="/" className={styles.nav__link}>
           Join
         </Link>
+        <button className={styles.hamburger}>
+          <span className={styles.hamburger__line} />
+          <span className={styles.hamburger__line} />
+          <span className={styles.hamburger__line} />
+        </button>
       </nav>
-      <button className={styles.hamburger}>
-        <span className={styles.hamburger__line} />
-        <span className={styles.hamburger__line} />
-        <span className={styles.hamburger__line} />
-      </button>
     </header>
   );
 }
