@@ -4,7 +4,6 @@ export default function Accordion() {
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
     if (selected === i) {
-      console.log("open");
       return setSelected(null);
     }
     setSelected(i);
@@ -14,7 +13,7 @@ export default function Accordion() {
       <div className="accordion">
         {data.map((item, i) => {
           return (
-            <div className="item">
+            <div className="item" key={item.id}>
               <div className="title" onClick={() => toggle(i)}>
                 <h2>{item.question}</h2>
                 <img
@@ -36,16 +35,19 @@ export default function Accordion() {
 
 const data = [
   {
+    id: "0",
     question: "When will the application be live?",
     content:
       "We update everything we can- saving HOURS of your time.We update everything we can- saving HOURS of your time.",
   },
   {
+    id: "1",
     question: "When will the application be live?",
     content:
       "We update everything we can- saving HOURS of your time.We update everything we can- saving HOURS of your time.",
   },
   {
+    id: "2",
     question: "When will the application be live?",
     content:
       "We update everything we can- saving HOURS of your time.We update everything we can- saving HOURS of your time.",
