@@ -17,21 +17,7 @@ export default function Home() {
         reviewText="We update everything we can- saving HOURS of your time."
       />
       <Faq>
-        <Accordion
-          accordionTitle="When will the application be live?"
-          accordionDescription="We update everything we can- saving HOURS of your time.We update
-        everything we can- saving HOURS of your time."
-        />
-        <Accordion
-          accordionTitle="When will the application be live?"
-          accordionDescription="We update everything we can- saving HOURS of your time.We update
-        everything we can- saving HOURS of your time."
-        />
-        <Accordion
-          accordionTitle="When will the application be live?"
-          accordionDescription="We update everything we can- saving HOURS of your time.We update
-        everything we can- saving HOURS of your time."
-        />
+        <Accordion />
       </Faq>
       <Subscribe subscribeText="You can say you were the first one..." />
     </>
