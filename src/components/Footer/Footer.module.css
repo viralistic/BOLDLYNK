@@ -43,6 +43,7 @@
     opacity: .5;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 .seperator__mobile,
@@ -100,5 +101,9 @@
     .footer__credits,
     .footer__date {
         font-size: .8rem;
+    }
+
+    .footer__credits {
+        margin-bottom: 0;
     }
 }
